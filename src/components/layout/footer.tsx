@@ -69,25 +69,37 @@ export function Footer() {
             </h3>
             <nav className="space-y-2">
               <Link
-                href="#home"
+                href="/#home"
                 className="block text-sm hover:text-secondary transition-colors"
               >
                 {tNav('home')}
               </Link>
               <Link
-                href="#services"
+                href="/#services"
                 className="block text-sm hover:text-secondary transition-colors"
               >
                 {tNav('services')}
               </Link>
               <Link
-                href="#about"
+                href="/shop"
+                className="block text-sm hover:text-secondary transition-colors"
+              >
+                {tNav('shop')}
+              </Link>
+              <Link
+                href="/#about"
                 className="block text-sm hover:text-secondary transition-colors"
               >
                 {tNav('about')}
               </Link>
               <Link
-                href="#contact"
+                href="/blog"
+                className="block text-sm hover:text-secondary transition-colors"
+              >
+                {tNav('blog')}
+              </Link>
+              <Link
+                href="/#contact"
                 className="block text-sm hover:text-secondary transition-colors"
               >
                 {tNav('contact')}

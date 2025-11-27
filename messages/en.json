@@ -1,11 +1,14 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About",
     "services": "Services",
-    "contact": "Contact",
+    "shop": "Shop",
+    "about": "About",
+    "blog": "Blog",
     "testimonials": "Testimonials",
-    "scheduleVisit": "Schedule a Visit"
+    "contact": "Contact",
+    "scheduleVisit": "Schedule a Visit",
+    "signIn": "Sign In"
   },
   "hero": {
     "tagline": "Caring for cats with love and EXPURRTise!",
@@ -179,5 +182,290 @@
       "title": "Contact Info"
     },
     "copyright": "© Copyright {year} {name}. All Rights Reserved."
+  },
+  "blog": {
+    "hero": {
+      "title": "Cat Care Blog",
+      "description": "Expert tips, guides, and insights for your feline friends",
+      "searchPlaceholder": "Search articles..."
+    },
+    "categories": {
+      "all": "All Posts",
+      "health": "Health",
+      "nutrition": "Nutrition",
+      "grooming": "Grooming",
+      "behavior": "Behavior",
+      "care": "Care"
+    },
+    "posts": {
+      "cat-nutrition-guide": {
+        "title": "Complete Guide to Cat Nutrition",
+        "excerpt": "Learn everything you need to know about feeding your cat a balanced diet for optimal health and longevity."
+      },
+      "common-cat-diseases": {
+        "title": "10 Most Common Cat Diseases and Prevention",
+        "excerpt": "Understand the warning signs and preventive measures for the most common feline health issues."
+      },
+      "grooming-tips": {
+        "title": "Essential Cat Grooming Tips for Beginners",
+        "excerpt": "Master the basics of cat grooming with our step-by-step guide to keeping your cat clean and healthy."
+      },
+      "cat-behavior-understanding": {
+        "title": "Understanding Your Cat's Behavior",
+        "excerpt": "Decode your cat's body language and behaviors to build a stronger bond with your feline companion."
+      },
+      "kitten-care-basics": {
+        "title": "Kitten Care Basics: First Year Guide",
+        "excerpt": "Everything new kitten owners need to know about caring for their new furry family member."
+      },
+      "senior-cat-health": {
+        "title": "Senior Cat Health: What to Expect",
+        "excerpt": "Learn how to care for your aging cat and ensure their golden years are comfortable and happy."
+      }
+    },
+    "minRead": "min read",
+    "readMore": "Read More",
+    "loadMore": "Load More Articles",
+    "noResults": "No articles found. Try a different search or category.",
+    "newsletter": {
+      "title": "Get Cat Care Tips in Your Inbox",
+      "description": "Subscribe to our newsletter for weekly expert advice and special offers",
+      "placeholder": "Enter your email",
+      "submit": "Subscribe"
+    }
+  },
+  "shop": {
+    "hero": {
+      "title": "Pet Shop",
+      "description": "Premium products for your beloved cats and pets",
+      "searchPlaceholder": "Search products..."
+    },
+    "categories": {
+      "all": "All Products",
+      "food": "Food & Treats",
+      "toys": "Toys",
+      "accessories": "Accessories",
+      "grooming": "Grooming",
+      "health": "Health & Wellness"
+    },
+    "products": {
+      "premium-cat-food": {
+        "name": "Premium Cat Food - Chicken & Rice"
+      },
+      "cat-scratching-post": {
+        "name": "Deluxe Cat Scratching Post"
+      },
+      "cat-carrier-bag": {
+        "name": "Travel Cat Carrier Bag"
+      },
+      "interactive-toy-set": {
+        "name": "Interactive Cat Toy Set"
+      },
+      "cat-grooming-kit": {
+        "name": "Professional Cat Grooming Kit"
+      },
+      "cozy-cat-bed": {
+        "name": "Cozy Plush Cat Bed"
+      },
+      "cat-health-supplements": {
+        "name": "Cat Health Supplements"
+      },
+      "automatic-feeder": {
+        "name": "Smart Automatic Cat Feeder"
+      }
+    },
+    "badges": {
+      "bestseller": "Bestseller",
+      "new": "New"
+    },
+    "filters": "Filters",
+    "showingResults": "Showing {count} products",
+    "reviews": "reviews",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "loadMore": "Load More Products",
+    "noResults": "No products found. Try a different search or category.",
+    "promo": {
+      "title": "First Order? Get 20% Off!",
+      "description": "Use code PAWFEC20 at checkout for new customers",
+      "cta": "Shop Now"
+    }
+  },
+  "blogDetail": {
+    "backToBlog": "Back to Blog",
+    "author": "Author",
+    "like": "Like",
+    "bookmark": "Bookmark",
+    "share": "Share",
+    "keyTakeaways": "Key Takeaways",
+    "conclusion": "Conclusion",
+    "authorBio": "Experienced veterinarian with over 10 years of practice specializing in feline health and wellness.",
+    "relatedArticles": "Related Articles",
+    "cat-nutrition-guide": {
+      "title": "Complete Guide to Cat Nutrition",
+      "introduction": "Understanding your cat's nutritional needs is crucial for their long-term health and happiness. This comprehensive guide will help you make informed decisions about your feline friend's diet.",
+      "section1": {
+        "heading": "Understanding Cat Dietary Requirements",
+        "content": "Cats are obligate carnivores, which means they require nutrients found primarily in animal products. Unlike dogs and humans, cats have unique dietary needs that must be met through their food."
+      },
+      "section2": {
+        "heading": "Choosing the Right Cat Food",
+        "content": "When selecting cat food, look for high-quality protein sources listed as the first ingredient. Avoid foods with excessive fillers, artificial colors, and preservatives that offer little nutritional value."
+      },
+      "section3": {
+        "heading": "Portion Control and Feeding Schedule",
+        "content": "Proper portion control is essential to prevent obesity and maintain optimal health. Most adult cats do well with two meals per day, while kittens may need three to four smaller meals."
+      },
+      "keyPoint1": "Always provide fresh, clean water alongside meals",
+      "keyPoint2": "Monitor your cat's weight and adjust portions accordingly",
+      "keyPoint3": "Consult your veterinarian before making major diet changes",
+      "conclusion": "A balanced, nutritious diet is the foundation of your cat's health. By understanding their unique needs and making informed choices, you can help ensure your feline companion lives a long, healthy life."
+    },
+    "common-cat-diseases": {
+      "title": "10 Most Common Cat Diseases and Prevention",
+      "introduction": "Being aware of common feline health issues can help you identify problems early and seek prompt veterinary care. Here are the most prevalent diseases affecting cats today.",
+      "section1": {
+        "heading": "Chronic Kidney Disease",
+        "content": "Chronic kidney disease (CKD) is one of the leading causes of illness in older cats. Early detection through regular blood work is crucial for managing this progressive condition."
+      },
+      "section2": {
+        "heading": "Diabetes Mellitus",
+        "content": "Feline diabetes is becoming increasingly common, especially in overweight cats. With proper management including diet, weight control, and sometimes insulin therapy, diabetic cats can live quality lives."
+      },
+      "section3": {
+        "heading": "Upper Respiratory Infections",
+        "content": "URI are extremely common in cats, especially those in multi-cat households or shelters. Vaccination and good hygiene practices can significantly reduce the risk of these infections."
+      },
+      "keyPoint1": "Regular veterinary check-ups can catch diseases early",
+      "keyPoint2": "Keep vaccinations up-to-date to prevent infectious diseases",
+      "keyPoint3": "Maintain a healthy weight to prevent obesity-related conditions",
+      "conclusion": "Prevention is always better than treatment. By staying informed about common cat diseases and maintaining regular veterinary care, you can help protect your cat's health and catch potential issues before they become serious."
+    },
+    "grooming-tips": {
+      "title": "Essential Cat Grooming Tips for Beginners",
+      "introduction": "Regular grooming is an important part of cat care that helps maintain your pet's health and strengthens your bond. Learn the essential techniques for keeping your cat clean and comfortable.",
+      "section1": {
+        "heading": "Brushing Your Cat's Coat",
+        "content": "Regular brushing removes loose hair, prevents matting, and reduces hairballs. Short-haired cats need brushing once or twice a week, while long-haired breeds may require daily attention."
+      },
+      "section2": {
+        "heading": "Nail Trimming Basics",
+        "content": "Trimming your cat's nails every 2-3 weeks helps prevent scratching damage and reduces the risk of ingrown nails. Use proper cat nail clippers and trim only the sharp tip, avoiding the pink quick."
+      },
+      "section3": {
+        "heading": "Bathing Your Cat",
+        "content": "Most cats are excellent self-groomers and rarely need baths. However, when necessary, use lukewarm water and cat-specific shampoo, and keep the experience calm and positive."
+      },
+      "keyPoint1": "Start grooming routines when your cat is young for easier acceptance",
+      "keyPoint2": "Use treats and positive reinforcement during grooming sessions",
+      "keyPoint3": "Watch for skin issues, lumps, or parasites during grooming",
+      "conclusion": "Regular grooming keeps your cat healthy, comfortable, and looking their best. With patience and the right techniques, grooming can become a positive bonding experience for both you and your feline friend."
+    },
+    "cat-behavior-understanding": {
+      "title": "Understanding Your Cat's Behavior",
+      "introduction": "Cats communicate through a complex system of vocalizations, body language, and behaviors. Learning to interpret these signals will help you better understand and care for your feline companion.",
+      "section1": {
+        "heading": "Decoding Body Language",
+        "content": "A cat's tail, ears, and posture tell you a lot about their mood. An upright tail indicates happiness, while a puffed-up tail signals fear or aggression. Flattened ears suggest anxiety or displeasure."
+      },
+      "section2": {
+        "heading": "Vocalization Meanings",
+        "content": "Cats use different sounds to communicate various needs and emotions. Meowing is primarily used to communicate with humans, while purring typically indicates contentment (though sometimes pain or stress)."
+      },
+      "section3": {
+        "heading": "Common Behavioral Issues",
+        "content": "Understanding the root cause of behavioral problems like scratching furniture or litter box avoidance is key to finding solutions. Most issues stem from stress, boredom, or unmet needs."
+      },
+      "keyPoint1": "Observe your cat's normal behavior to spot changes early",
+      "keyPoint2": "Provide environmental enrichment to prevent boredom",
+      "keyPoint3": "Address behavioral issues promptly before they become habits",
+      "conclusion": "By learning your cat's unique communication style and behavioral patterns, you can create a more harmonious household and respond better to your pet's needs."
+    },
+    "kitten-care-basics": {
+      "title": "Kitten Care Basics: First Year Guide",
+      "introduction": "The first year of a kitten's life is crucial for their development and long-term health. This guide covers everything you need to know to give your new kitten the best start in life.",
+      "section1": {
+        "heading": "Nutrition for Growing Kittens",
+        "content": "Kittens need specially formulated food with higher protein and calorie content to support their rapid growth. Feed kitten-specific food until they reach 12 months of age."
+      },
+      "section2": {
+        "heading": "Vaccination Schedule",
+        "content": "Kittens require a series of vaccinations starting at 6-8 weeks of age. Core vaccines protect against panleukopenia, herpesvirus, and calicivirus. Follow your vet's recommended schedule closely."
+      },
+      "section3": {
+        "heading": "Socialization and Training",
+        "content": "The first few months are critical for socialization. Expose your kitten to various people, sounds, and experiences while they're young to help them become a well-adjusted adult cat."
+      },
+      "keyPoint1": "Schedule your first vet visit within days of bringing kitten home",
+      "keyPoint2": "Kitten-proof your home by removing hazards and toxic plants",
+      "keyPoint3": "Establish routines early for feeding, play, and litter box use",
+      "conclusion": "Raising a kitten requires time, patience, and commitment, but the rewards of watching them grow into a healthy, happy cat make it all worthwhile."
+    },
+    "senior-cat-health": {
+      "title": "Senior Cat Health: What to Expect",
+      "introduction": "As cats age, their health needs change. Understanding what to expect in your cat's senior years helps you provide the best possible care and maintain their quality of life.",
+      "section1": {
+        "heading": "Age-Related Changes",
+        "content": "Senior cats (7+ years) often experience decreased activity, changes in sleeping patterns, and may become more vocal. Regular vet visits become even more important to monitor these changes."
+      },
+      "section2": {
+        "heading": "Common Senior Cat Conditions",
+        "content": "Arthritis, dental disease, kidney disease, and hyperthyroidism are common in older cats. Early detection and management can significantly improve your senior cat's comfort and longevity."
+      },
+      "section3": {
+        "heading": "Adapting Your Home for Senior Cats",
+        "content": "Make adjustments to help your aging cat remain comfortable: provide easier access to litter boxes, add ramps or steps to favorite spots, and consider softer bedding for arthritic joints."
+      },
+      "keyPoint1": "Increase vet visit frequency to twice yearly for senior cats",
+      "keyPoint2": "Switch to senior-formulated food with appropriate nutrients",
+      "keyPoint3": "Monitor for subtle changes in behavior or appetite",
+      "conclusion": "With proper care, attention, and regular veterinary support, your senior cat can enjoy their golden years in comfort and happiness."
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptyDescription": "Add some products to get started",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clearCart": "Clear Cart"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account to continue",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "or": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up"
+    },
+    "signUp": {
+      "title": "Create Account",
+      "subtitle": "Join us to get the best care for your pets",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+62 812 3456 7890",
+      "password": "Password",
+      "passwordPlaceholder": "Create a password",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "agreeToTerms": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "submit": "Create Account",
+      "or": "Or sign up with",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in"
+    }
   }
 }

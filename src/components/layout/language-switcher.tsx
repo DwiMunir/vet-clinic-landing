@@ -33,7 +33,7 @@ export function LanguageSwitcher() {
       >
         <Globe size={18} className="text-gray-600" />
         <span className="text-sm font-medium text-gray-700 hidden sm:inline">
-          {languages[currentLocale as keyof typeof languages]?.name || 'EN'}
+          {(languages[currentLocale as keyof typeof languages]?.name === 'Indonesia' ? 'ID' : 'EN')}
         </span>
       </button>
 
@@ -61,8 +61,8 @@ export function LanguageSwitcher() {
                     key={locale}
                     onClick={() => handleLocaleChange(locale)}
                     className={`w-full flex items-center justify-between px-4 py-2.5 text-sm transition-colors ${isActive
-                        ? 'bg-blue-50 text-blue-600'
-                        : 'text-gray-700 hover:bg-gray-50'
+                      ? 'bg-blue-50 text-blue-600'
+                      : 'text-gray-700 hover:bg-gray-50'
                       }`}
                   >
                     <div className="flex items-center gap-3">

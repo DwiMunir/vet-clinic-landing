@@ -1,11 +1,14 @@
 {
   "navbar": {
     "home": "Beranda",
-    "about": "Tentang",
     "services": "Layanan",
-    "contact": "Kontak",
+    "shop": "Toko",
+    "about": "Tentang",
+    "blog": "Blog",
     "testimonials": "Testimoni",
-    "scheduleVisit": "Jadwalkan Kunjungan"
+    "contact": "Kontak",
+    "scheduleVisit": "Jadwalkan Kunjungan",
+    "signIn": "Masuk"
   },
   "hero": {
     "tagline": "Merawat kucing dengan cinta dan keahlian!",
@@ -179,5 +182,290 @@
       "title": "Info Kontak"
     },
     "copyright": "© Hak Cipta {year} {name}. Semua Hak Dilindungi."
+  },
+  "blog": {
+    "hero": {
+      "title": "Blog Perawatan Kucing",
+      "description": "Tips ahli, panduan, dan wawasan untuk teman kucing Anda",
+      "searchPlaceholder": "Cari artikel..."
+    },
+    "categories": {
+      "all": "Semua Artikel",
+      "health": "Kesehatan",
+      "nutrition": "Nutrisi",
+      "grooming": "Perawatan",
+      "behavior": "Perilaku",
+      "care": "Perawatan"
+    },
+    "posts": {
+      "cat-nutrition-guide": {
+        "title": "Panduan Lengkap Nutrisi Kucing",
+        "excerpt": "Pelajari semua yang perlu Anda ketahui tentang memberi makan kucing Anda diet seimbang untuk kesehatan optimal."
+      },
+      "common-cat-diseases": {
+        "title": "10 Penyakit Kucing Paling Umum dan Pencegahannya",
+        "excerpt": "Pahami tanda-tanda peringatan dan langkah-langkah pencegahan untuk masalah kesehatan kucing yang paling umum."
+      },
+      "grooming-tips": {
+        "title": "Tips Perawatan Kucing Penting untuk Pemula",
+        "excerpt": "Kuasai dasar-dasar perawatan kucing dengan panduan langkah demi langkah kami untuk menjaga kucing tetap bersih."
+      },
+      "cat-behavior-understanding": {
+        "title": "Memahami Perilaku Kucing Anda",
+        "excerpt": "Dekode bahasa tubuh dan perilaku kucing Anda untuk membangun ikatan yang lebih kuat."
+      },
+      "kitten-care-basics": {
+        "title": "Dasar Perawatan Anak Kucing: Panduan Tahun Pertama",
+        "excerpt": "Semua yang perlu diketahui pemilik anak kucing baru tentang merawat anggota keluarga berbulu baru mereka."
+      },
+      "senior-cat-health": {
+        "title": "Kesehatan Kucing Senior: Yang Harus Diharapkan",
+        "excerpt": "Pelajari cara merawat kucing yang menua dan pastikan masa tua mereka nyaman dan bahagia."
+      }
+    },
+    "minRead": "menit baca",
+    "readMore": "Baca Selengkapnya",
+    "loadMore": "Muat Lebih Banyak Artikel",
+    "noResults": "Tidak ada artikel ditemukan. Coba pencarian atau kategori yang berbeda.",
+    "newsletter": {
+      "title": "Dapatkan Tips Perawatan Kucing di Email Anda",
+      "description": "Berlangganan newsletter kami untuk saran ahli mingguan dan penawaran khusus",
+      "placeholder": "Masukkan email Anda",
+      "submit": "Berlangganan"
+    }
+  },
+  "shop": {
+    "hero": {
+      "title": "Toko Hewan",
+      "description": "Produk premium untuk kucing dan hewan peliharaan kesayangan Anda",
+      "searchPlaceholder": "Cari produk..."
+    },
+    "categories": {
+      "all": "Semua Produk",
+      "food": "Makanan & Camilan",
+      "toys": "Mainan",
+      "accessories": "Aksesoris",
+      "grooming": "Perawatan",
+      "health": "Kesehatan & Wellness"
+    },
+    "products": {
+      "premium-cat-food": {
+        "name": "Makanan Kucing Premium - Ayam & Nasi"
+      },
+      "cat-scratching-post": {
+        "name": "Tiang Cakaran Kucing Deluxe"
+      },
+      "cat-carrier-bag": {
+        "name": "Tas Pembawa Kucing Travel"
+      },
+      "interactive-toy-set": {
+        "name": "Set Mainan Kucing Interaktif"
+      },
+      "cat-grooming-kit": {
+        "name": "Kit Perawatan Kucing Profesional"
+      },
+      "cozy-cat-bed": {
+        "name": "Tempat Tidur Kucing Plush Nyaman"
+      },
+      "cat-health-supplements": {
+        "name": "Suplemen Kesehatan Kucing"
+      },
+      "automatic-feeder": {
+        "name": "Pemberi Makan Kucing Otomatis Pintar"
+      }
+    },
+    "badges": {
+      "bestseller": "Terlaris",
+      "new": "Baru"
+    },
+    "filters": "Filter",
+    "showingResults": "Menampilkan {count} produk",
+    "reviews": "ulasan",
+    "addToCart": "Tambah ke Keranjang",
+    "outOfStock": "Stok Habis",
+    "loadMore": "Muat Lebih Banyak Produk",
+    "noResults": "Tidak ada produk ditemukan. Coba pencarian atau kategori yang berbeda.",
+    "promo": {
+      "title": "Pesanan Pertama? Diskon 20%!",
+      "description": "Gunakan kode PAWFEC20 saat checkout untuk pelanggan baru",
+      "cta": "Belanja Sekarang"
+    }
+  },
+  "blogDetail": {
+    "backToBlog": "Kembali ke Blog",
+    "author": "Penulis",
+    "like": "Suka",
+    "bookmark": "Simpan",
+    "share": "Bagikan",
+    "keyTakeaways": "Poin Penting",
+    "conclusion": "Kesimpulan",
+    "authorBio": "Dokter hewan berpengalaman dengan lebih dari 10 tahun praktek yang mengkhususkan diri dalam kesehatan dan kesejahteraan kucing.",
+    "relatedArticles": "Artikel Terkait",
+    "cat-nutrition-guide": {
+      "title": "Panduan Lengkap Nutrisi Kucing",
+      "introduction": "Memahami kebutuhan nutrisi kucing Anda sangat penting untuk kesehatan dan kebahagiaan jangka panjang mereka. Panduan komprehensif ini akan membantu Anda membuat keputusan yang tepat tentang diet teman kucing Anda.",
+      "section1": {
+        "heading": "Memahami Kebutuhan Diet Kucing",
+        "content": "Kucing adalah karnivora obligat, yang berarti mereka memerlukan nutrisi yang terutama ditemukan dalam produk hewani. Tidak seperti anjing dan manusia, kucing memiliki kebutuhan diet unik yang harus dipenuhi melalui makanan mereka."
+      },
+      "section2": {
+        "heading": "Memilih Makanan Kucing yang Tepat",
+        "content": "Saat memilih makanan kucing, cari sumber protein berkualitas tinggi yang tercantum sebagai bahan pertama. Hindari makanan dengan pengisi berlebihan, pewarna buatan, dan pengawet yang menawarkan sedikit nilai gizi."
+      },
+      "section3": {
+        "heading": "Kontrol Porsi dan Jadwal Makan",
+        "content": "Kontrol porsi yang tepat sangat penting untuk mencegah obesitas dan menjaga kesehatan optimal. Sebagian besar kucing dewasa baik dengan dua kali makan per hari, sementara anak kucing mungkin memerlukan tiga hingga empat kali makan lebih kecil."
+      },
+      "keyPoint1": "Selalu sediakan air segar dan bersih bersama makanan",
+      "keyPoint2": "Pantau berat kucing Anda dan sesuaikan porsi sesuai kebutuhan",
+      "keyPoint3": "Konsultasikan dengan dokter hewan sebelum membuat perubahan diet besar",
+      "conclusion": "Diet yang seimbang dan bergizi adalah fondasi kesehatan kucing Anda. Dengan memahami kebutuhan unik mereka dan membuat pilihan yang tepat, Anda dapat membantu memastikan teman kucing Anda hidup panjang dan sehat."
+    },
+    "common-cat-diseases": {
+      "title": "10 Penyakit Kucing Paling Umum dan Pencegahannya",
+      "introduction": "Menyadari masalah kesehatan kucing yang umum dapat membantu Anda mengidentifikasi masalah lebih awal dan mencari perawatan dokter hewan yang cepat. Berikut adalah penyakit paling umum yang mempengaruhi kucing saat ini.",
+      "section1": {
+        "heading": "Penyakit Ginjal Kronis",
+        "content": "Penyakit ginjal kronis (CKD) adalah salah satu penyebab utama penyakit pada kucing yang lebih tua. Deteksi dini melalui tes darah rutin sangat penting untuk mengelola kondisi progresif ini."
+      },
+      "section2": {
+        "heading": "Diabetes Mellitus",
+        "content": "Diabetes kucing menjadi semakin umum, terutama pada kucing yang kelebihan berat badan. Dengan manajemen yang tepat termasuk diet, kontrol berat badan, dan terkadang terapi insulin, kucing diabetes dapat hidup berkualitas."
+      },
+      "section3": {
+        "heading": "Infeksi Saluran Pernapasan Atas",
+        "content": "ISP sangat umum pada kucing, terutama mereka yang berada di rumah multi-kucing atau tempat penampungan. Vaksinasi dan praktik kebersihan yang baik dapat secara signifikan mengurangi risiko infeksi ini."
+      },
+      "keyPoint1": "Pemeriksaan dokter hewan rutin dapat menangkap penyakit lebih awal",
+      "keyPoint2": "Jaga vaksinasi tetap up-to-date untuk mencegah penyakit menular",
+      "keyPoint3": "Pertahankan berat badan yang sehat untuk mencegah kondisi terkait obesitas",
+      "conclusion": "Pencegahan selalu lebih baik daripada pengobatan. Dengan tetap terinformasi tentang penyakit kucing umum dan menjaga perawatan dokter hewan rutin, Anda dapat membantu melindungi kesehatan kucing Anda dan menangkap masalah potensial sebelum menjadi serius."
+    },
+    "grooming-tips": {
+      "title": "Tips Perawatan Kucing Penting untuk Pemula",
+      "introduction": "Perawatan rutin adalah bagian penting dari perawatan kucing yang membantu menjaga kesehatan hewan peliharaan Anda dan memperkuat ikatan Anda. Pelajari teknik penting untuk menjaga kucing Anda bersih dan nyaman.",
+      "section1": {
+        "heading": "Menyikat Bulu Kucing Anda",
+        "content": "Menyikat secara teratur menghilangkan bulu lepas, mencegah kusut, dan mengurangi hairball. Kucing berbulu pendek perlu disikat satu atau dua kali seminggu, sementara ras berbulu panjang mungkin memerlukan perhatian harian."
+      },
+      "section2": {
+        "heading": "Dasar Memotong Kuku",
+        "content": "Memotong kuku kucing Anda setiap 2-3 minggu membantu mencegah kerusakan akibat cakaran dan mengurangi risiko kuku yang tumbuh ke dalam. Gunakan pemotong kuku kucing yang tepat dan potong hanya ujung tajam, hindari bagian merah muda."
+      },
+      "section3": {
+        "heading": "Memandikan Kucing Anda",
+        "content": "Sebagian besar kucing adalah perawat diri yang sangat baik dan jarang memerlukan mandi. Namun, jika perlu, gunakan air hangat dan sampo khusus kucing, dan jaga pengalaman tetap tenang dan positif."
+      },
+      "keyPoint1": "Mulai rutinitas perawatan saat kucing Anda masih muda untuk penerimaan yang lebih mudah",
+      "keyPoint2": "Gunakan camilan dan penguatan positif selama sesi perawatan",
+      "keyPoint3": "Perhatikan masalah kulit, benjolan, atau parasit selama perawatan",
+      "conclusion": "Perawatan rutin menjaga kucing Anda sehat, nyaman, dan terlihat terbaik. Dengan kesabaran dan teknik yang tepat, perawatan dapat menjadi pengalaman ikatan positif untuk Anda dan teman kucing Anda."
+    },
+    "cat-behavior-understanding": {
+      "title": "Memahami Perilaku Kucing Anda",
+      "introduction": "Kucing berkomunikasi melalui sistem vokalisasi, bahasa tubuh, dan perilaku yang kompleks. Belajar menafsirkan sinyal-sinyal ini akan membantu Anda lebih memahami dan merawat teman kucing Anda.",
+      "section1": {
+        "heading": "Menguraikan Bahasa Tubuh",
+        "content": "Ekor, telinga, dan postur kucing memberi tahu Anda banyak tentang suasana hati mereka. Ekor tegak menunjukkan kebahagiaan, sementara ekor menggembung menandakan ketakutan atau agresi. Telinga rata menyarankan kecemasan atau ketidaksenangan."
+      },
+      "section2": {
+        "heading": "Arti Vokalisasi",
+        "content": "Kucing menggunakan suara yang berbeda untuk mengkomunikasikan berbagai kebutuhan dan emosi. Mengeong terutama digunakan untuk berkomunikasi dengan manusia, sementara mendengkur biasanya menunjukkan kepuasan (meskipun kadang-kadang rasa sakit atau stres)."
+      },
+      "section3": {
+        "heading": "Masalah Perilaku Umum",
+        "content": "Memahami akar penyebab masalah perilaku seperti mencakar furnitur atau penghindaran kotak pasir adalah kunci untuk menemukan solusi. Sebagian besar masalah berasal dari stres, kebosanan, atau kebutuhan yang tidak terpenuhi."
+      },
+      "keyPoint1": "Amati perilaku normal kucing Anda untuk mendeteksi perubahan lebih awal",
+      "keyPoint2": "Berikan pengayaan lingkungan untuk mencegah kebosanan",
+      "keyPoint3": "Tangani masalah perilaku dengan cepat sebelum menjadi kebiasaan",
+      "conclusion": "Dengan mempelajari gaya komunikasi unik dan pola perilaku kucing Anda, Anda dapat menciptakan rumah tangga yang lebih harmonis dan merespons kebutuhan hewan peliharaan Anda dengan lebih baik."
+    },
+    "kitten-care-basics": {
+      "title": "Dasar Perawatan Anak Kucing: Panduan Tahun Pertama",
+      "introduction": "Tahun pertama kehidupan anak kucing sangat penting untuk perkembangan dan kesehatan jangka panjang mereka. Panduan ini mencakup semua yang perlu Anda ketahui untuk memberi anak kucing baru Anda awal terbaik dalam hidup.",
+      "section1": {
+        "heading": "Nutrisi untuk Anak Kucing yang Tumbuh",
+        "content": "Anak kucing memerlukan makanan yang diformulasikan khusus dengan kandungan protein dan kalori yang lebih tinggi untuk mendukung pertumbuhan cepat mereka. Beri makanan khusus anak kucing sampai mereka mencapai usia 12 bulan."
+      },
+      "section2": {
+        "heading": "Jadwal Vaksinasi",
+        "content": "Anak kucing memerlukan serangkaian vaksinasi yang dimulai pada usia 6-8 minggu. Vaksin inti melindungi terhadap panleukopenia, herpesvirus, dan calicivirus. Ikuti jadwal yang direkomendasikan dokter hewan Anda dengan ketat."
+      },
+      "section3": {
+        "heading": "Sosialisasi dan Pelatihan",
+        "content": "Beberapa bulan pertama sangat penting untuk sosialisasi. Kenalkan anak kucing Anda dengan berbagai orang, suara, dan pengalaman saat mereka masih muda untuk membantu mereka menjadi kucing dewasa yang menyesuaikan diri dengan baik."
+      },
+      "keyPoint1": "Jadwalkan kunjungan dokter hewan pertama dalam beberapa hari setelah membawa anak kucing pulang",
+      "keyPoint2": "Pastikan rumah aman untuk anak kucing dengan menghilangkan bahaya dan tanaman beracun",
+      "keyPoint3": "Tetapkan rutinitas awal untuk makan, bermain, dan penggunaan kotak pasir",
+      "conclusion": "Membesarkan anak kucing memerlukan waktu, kesabaran, dan komitmen, tetapi imbalan melihat mereka tumbuh menjadi kucing yang sehat dan bahagia membuat semuanya berharga."
+    },
+    "senior-cat-health": {
+      "title": "Kesehatan Kucing Senior: Yang Harus Diharapkan",
+      "introduction": "Seiring bertambahnya usia kucing, kebutuhan kesehatan mereka berubah. Memahami apa yang diharapkan di tahun-tahun senior kucing Anda membantu Anda memberikan perawatan terbaik dan mempertahankan kualitas hidup mereka.",
+      "section1": {
+        "heading": "Perubahan Terkait Usia",
+        "content": "Kucing senior (7+ tahun) sering mengalami penurunan aktivitas, perubahan pola tidur, dan mungkin menjadi lebih vokal. Kunjungan dokter hewan rutin menjadi lebih penting untuk memantau perubahan ini."
+      },
+      "section2": {
+        "heading": "Kondisi Kucing Senior Umum",
+        "content": "Arthritis, penyakit gigi, penyakit ginjal, dan hipertiroidisme umum pada kucing yang lebih tua. Deteksi dini dan manajemen dapat secara signifikan meningkatkan kenyamanan dan umur panjang kucing senior Anda."
+      },
+      "section3": {
+        "heading": "Menyesuaikan Rumah Anda untuk Kucing Senior",
+        "content": "Buat penyesuaian untuk membantu kucing yang menua tetap nyaman: berikan akses lebih mudah ke kotak pasir, tambahkan landai atau tangga ke tempat favorit, dan pertimbangkan tempat tidur yang lebih lembut untuk sendi artritis."
+      },
+      "keyPoint1": "Tingkatkan frekuensi kunjungan dokter hewan menjadi dua kali setahun untuk kucing senior",
+      "keyPoint2": "Beralih ke makanan yang diformulasikan untuk senior dengan nutrisi yang sesuai",
+      "keyPoint3": "Pantau perubahan halus dalam perilaku atau nafsu makan",
+      "conclusion": "Dengan perawatan yang tepat, perhatian, dan dukungan dokter hewan rutin, kucing senior Anda dapat menikmati tahun emas mereka dalam kenyamanan dan kebahagiaan."
+    }
+  },
+  "cart": {
+    "title": "Keranjang Belanja",
+    "empty": "Keranjang Anda kosong",
+    "emptyDescription": "Tambahkan beberapa produk untuk memulai",
+    "total": "Total",
+    "checkout": "Checkout",
+    "clearCart": "Kosongkan Keranjang"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Selamat Datang Kembali",
+      "subtitle": "Masuk ke akun Anda untuk melanjutkan",
+      "email": "Alamat Email",
+      "emailPlaceholder": "anda@example.com",
+      "password": "Kata Sandi",
+      "passwordPlaceholder": "Masukkan kata sandi Anda",
+      "rememberMe": "Ingat saya",
+      "forgotPassword": "Lupa kata sandi?",
+      "submit": "Masuk",
+      "or": "Atau lanjutkan dengan",
+      "noAccount": "Belum punya akun?",
+      "signUpLink": "Daftar"
+    },
+    "signUp": {
+      "title": "Buat Akun",
+      "subtitle": "Bergabunglah dengan kami untuk perawatan terbaik hewan peliharaan Anda",
+      "name": "Nama Lengkap",
+      "namePlaceholder": "John Doe",
+      "email": "Alamat Email",
+      "emailPlaceholder": "anda@example.com",
+      "phone": "Nomor Telepon",
+      "phonePlaceholder": "+62 812 3456 7890",
+      "password": "Kata Sandi",
+      "passwordPlaceholder": "Buat kata sandi",
+      "confirmPassword": "Konfirmasi Kata Sandi",
+      "confirmPasswordPlaceholder": "Konfirmasi kata sandi Anda",
+      "agreeToTerms": "Saya setuju dengan",
+      "termsLink": "Syarat Layanan",
+      "and": "dan",
+      "privacyLink": "Kebijakan Privasi",
+      "submit": "Buat Akun",
+      "or": "Atau daftar dengan",
+      "hasAccount": "Sudah punya akun?",
+      "signInLink": "Masuk"
+    }
   }
 }
