@@ -1,11 +1,10 @@
 'use client';
 
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { X, Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react';
-import { useCart } from '@/contexts/cart-context';
-import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslations } from 'next-intl';
+import { X, Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react';
+import { useCart } from '../contexts/cart-provider';
 
 interface CartDrawerProps {
   isOpen: boolean;
@@ -13,7 +12,8 @@ interface CartDrawerProps {
 }
 
 export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
-  const { items, removeFromCart, updateQuantity, clearCart, totalPrice } = useCart();
+  const { items, removeFromCart, updateQuantity, clearCart, totalPrice } =
+    useCart();
   const t = useTranslations('cart');
 
   return (
@@ -47,6 +47,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
               </div>
               <button
                 onClick={onClose}
+                type="button"
                 className="p-2 hover:bg-gray-100 rounded-full transition-colors"
               >
                 <X className="w-5 h-5" />
@@ -59,7 +60,9 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                 <div className="flex flex-col items-center justify-center h-full text-center">
                   <ShoppingBag className="w-16 h-16 text-gray-300 mb-4" />
                   <p className="text-gray-500 text-lg mb-2">{t('empty')}</p>
-                  <p className="text-gray-400 text-sm">{t('emptyDescription')}</p>
+                  <p className="text-gray-400 text-sm">
+                    {t('emptyDescription')}
+                  </p>
                 </div>
               ) : (
                 <div className="space-y-4">
@@ -84,7 +87,9 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
 
                       {/* Product Info */}
                       <div className="flex-1">
-                        <h3 className="font-semibold text-sm mb-1">{item.name}</h3>
+                        <h3 className="font-semibold text-sm mb-1">
+                          {item.name}
+                        </h3>
                         <p className="text-orange-600 font-bold mb-2">
                           Rp {item.price.toLocaleString('id-ID')}
                         </p>
@@ -92,14 +97,22 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                         {/* Quantity Controls */}
                         <div className="flex items-center gap-2">
                           <button
-                            onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                            onClick={() =>
+                              updateQuantity(item.id, item.quantity - 1)
+                            }
+                            type="button"
                             className="p-1 hover:bg-white rounded transition-colors"
                           >
                             <Minus className="w-4 h-4" />
                           </button>
-                          <span className="w-8 text-center font-medium">{item.quantity}</span>
+                          <span className="w-8 text-center font-medium">
+                            {item.quantity}
+                          </span>
                           <button
-                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                            onClick={() =>
+                              updateQuantity(item.id, item.quantity + 1)
+                            }
+                            type="button"
                             className="p-1 hover:bg-white rounded transition-colors"
                           >
                             <Plus className="w-4 h-4" />
@@ -110,6 +123,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                       {/* Remove Button */}
                       <button
                         onClick={() => removeFromCart(item.id)}
+                        type="button"
                         className="p-2 hover:bg-red-50 hover:text-red-600 rounded-full transition-colors self-start"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -121,6 +135,7 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                   {items.length > 0 && (
                     <button
                       onClick={clearCart}
+                      type="button"
                       className="w-full py-2 text-sm text-red-600 hover:bg-red-50 rounded-lg transition-colors"
                     >
                       {t('clearCart')}
@@ -142,7 +157,10 @@ export function CartDrawer({ isOpen, onClose }: CartDrawerProps) {
                 </div>
 
                 {/* Checkout Button */}
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-semibold transition-colors">
+                <button
+                  type="button"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-lg font-semibold transition-colors"
+                >
                   {t('checkout')}
                 </button>
               </div>

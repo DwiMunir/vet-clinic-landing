@@ -48,7 +48,7 @@ export function CTASection() {
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="flex gap-3">
+                <div className="flex gap-3 items-center">
                   <Input
                     type="email"
                     placeholder={t('emailPlaceholder')}

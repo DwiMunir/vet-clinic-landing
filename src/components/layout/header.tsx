@@ -8,8 +8,7 @@ import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from '@/components/layout/language-switcher';
 import { CLINIC_INFO } from '@/constants';
 import { Menu, X, ShoppingCart, User } from 'lucide-react';
-import { useCart } from '@/contexts/cart-context';
-import { CartDrawer } from '@/components/cart/cart-drawer';
+import { useCart, CartDrawer } from '@/features/cart';
 
 export function Header() {
   const t = useTranslations('navbar');

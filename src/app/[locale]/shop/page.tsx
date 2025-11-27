@@ -6,7 +6,7 @@ import { Footer } from '@/components/layout/footer';
 import { Container } from '@/components/ui/container';
 import { Section } from '@/components/ui/section';
 import { Button } from '@/components/ui/button';
-import { useCart } from '@/contexts/cart-context';
+import { useCart } from '@/features/cart';
 import { motion } from 'framer-motion';
 import {
   ShopHero,
