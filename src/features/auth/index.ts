@@ -11,6 +11,15 @@ export { FormDivider } from './components/form-divider';
 export { useSignInForm } from './hooks/use-signin-form';
 export { useSignUpForm } from './hooks/use-signup-form';
 
+// Queries (React Query)
+export {
+  useSignInMutation,
+  useSignUpMutation,
+  useSignOutMutation,
+  useGetMeQuery,
+  authKeys,
+} from './queries/auth.queries';
+
 // Services
 export { authService } from './services/auth.service';
 

@@ -8,6 +8,14 @@ export { PRODUCTS, CATEGORIES } from './data/products.data';
 export { useProductFilter } from './hooks/use-product-filter';
 export { useFavorites } from './hooks/use-favorites';
 
+// Queries (React Query)
+export {
+  useProductsQuery,
+  useProductQuery,
+  useToggleFavoriteMutation,
+  productKeys,
+} from './queries/product.queries';
+
 // Components
 export { ShopHero } from './components/shop-hero';
 export { ShopSearchBar } from './components/shop-search-bar';

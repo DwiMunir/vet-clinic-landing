@@ -1,15 +1,20 @@
+import { apiClient } from '@/lib/api-client';
 import type { SignInFormData, SignUpFormData, AuthResponse } from '../types/auth.types';
+
+// Auth API endpoints
+const AUTH_ENDPOINTS = {
+  signIn: '/auth/signin',
+  signUp: '/auth/signup',
+  signOut: '/auth/signout',
+  me: '/auth/me',
+} as const;
 
 export const authService = {
   async signIn(data: SignInFormData): Promise<AuthResponse> {
-    // TODO: Implement actual API call
-    // const response = await fetch('/api/auth/signin', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(data),
-    // });
-    // return response.json();
+    // Real API call - uncomment when backend ready
+    // return apiClient.post<AuthResponse>(AUTH_ENDPOINTS.signIn, data);
 
+    // Mock implementation for now
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
@@ -20,37 +25,58 @@ export const authService = {
             name: 'John Doe',
             email: data.email,
           },
+          token: 'mock-jwt-token-12345',
         });
       }, 1000);
     });
   },
 
   async signUp(data: SignUpFormData): Promise<AuthResponse> {
-    // TODO: Implement actual API call
-    // const response = await fetch('/api/auth/signup', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(data),
-    // });
-    // return response.json();
+    // Real API call - uncomment when backend ready
+    // return apiClient.post<AuthResponse>(AUTH_ENDPOINTS.signUp, data);
 
+    // Mock implementation for now
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve({
           success: true,
           message: 'Sign up successful',
           user: {
-            id: '1',
+            id: '2',
             name: data.name,
             email: data.email,
           },
+          token: 'mock-jwt-token-67890',
         });
       }, 1000);
     });
   },
 
   async signOut(): Promise<void> {
-    // TODO: Implement actual API call
-    // await fetch('/api/auth/signout', { method: 'POST' });
+    // Real API call - uncomment when backend ready
+    // return apiClient.post<void>(AUTH_ENDPOINTS.signOut);
+
+    // Mock implementation for now
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve();
+      }, 500);
+    });
+  },
+
+  async getMe(): Promise<AuthResponse['user']> {
+    // Real API call - uncomment when backend ready
+    // return apiClient.get<AuthResponse['user']>(AUTH_ENDPOINTS.me);
+
+    // Mock implementation for now
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          id: '1',
+          name: 'John Doe',
+          email: 'user@example.com',
+        });
+      }, 800);
+    });
   },
 };

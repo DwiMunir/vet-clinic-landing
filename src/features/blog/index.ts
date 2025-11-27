@@ -8,6 +8,13 @@ export { BLOG_POSTS, BLOG_POSTS_DATA, BLOG_CATEGORIES } from './data/blog-posts.
 export { useBlogFilter } from './hooks/use-blog-filter';
 export { useBlogInteractions } from './hooks/use-blog-interactions';
 
+// Queries (React Query)
+export {
+  useBlogPostsQuery,
+  useBlogPostQuery,
+  blogKeys,
+} from './queries/blog.queries';
+
 // List Components
 export { BlogHero } from './components/blog-hero';
 export { BlogCategoryFilter } from './components/blog-category-filter';

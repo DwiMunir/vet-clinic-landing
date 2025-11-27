@@ -9,21 +9,23 @@ import { LanguageSwitcher } from '@/components/layout/language-switcher';
 import { CLINIC_INFO } from '@/constants';
 import { Menu, X, ShoppingCart, User } from 'lucide-react';
 import { useCart, CartDrawer } from '@/features/cart';
+import { usePathname } from '@/i18n/navigation';
 
 export function Header() {
   const t = useTranslations('navbar');
+  const pathname = usePathname();
   const { totalItems } = useCart();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isCartOpen, setIsCartOpen] = React.useState(false);
 
   const NAV_LINKS = [
-    { href: '/#home', label: t('home') },
-    { href: '/#services', label: t('services') },
+    { href: '#home', label: t('home') },
+    { href: '#services', label: t('services') },
     { href: '/shop', label: t('shop') },
-    { href: '/#about', label: t('about') },
+    { href: '#about', label: t('about') },
     { href: '/blog', label: t('blog') },
-    { href: '/#testimonials', label: t('testimonials') },
-    { href: '/#contact', label: t('contact') },
+    { href: '#testimonials', label: t('testimonials') },
+    { href: '#contact', label: t('contact') },
   ];
 
   return (
@@ -45,8 +47,8 @@ export function Header() {
             <nav className="hidden md:flex md:items-center md:gap-8">
               {NAV_LINKS.map((link) => (
                 <Link
-                  key={link.href}
-                  href={link.href}
+                  key={pathname !== '/' && link.href.includes('#') ? `/${link.href}` : link.href}
+                  href={pathname !== '/' && link.href.includes('#') ? `/${link.href}` : link.href}
                   className="text-sm font-medium transition-colors hover:text-secondary"
                 >
                   {link.label}
