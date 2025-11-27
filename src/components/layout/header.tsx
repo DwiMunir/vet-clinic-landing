@@ -10,6 +10,7 @@ import { CLINIC_INFO } from '@/constants';
 import { Menu, X, ShoppingCart, User } from 'lucide-react';
 import { useCart, CartDrawer } from '@/features/cart';
 import { usePathname } from '@/i18n/navigation';
+import { siteConfig } from '@/config/site';
 
 export function Header() {
   const t = useTranslations('navbar');
@@ -39,7 +40,7 @@ export function Header() {
                 <span className="text-white text-xl">🐾</span>
               </div>
               <span className="text-xl font-bold text-gray-900">
-                {CLINIC_INFO.name}
+                {siteConfig.name}
               </span>
             </Link>
 

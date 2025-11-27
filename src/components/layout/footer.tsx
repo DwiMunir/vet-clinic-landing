@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import { Container } from '@/components/ui/container';
 import { CLINIC_INFO } from '@/constants';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
+import { siteConfig } from '@/config/site';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -21,7 +22,7 @@ export function Footer() {
                 <span className="text-white text-xl">🐾</span>
               </div>
               <h3 className="text-lg font-bold text-gray-900">
-                {CLINIC_INFO.name}
+                {siteConfig.name}
               </h3>
             </div>
             <p className="text-sm">{CLINIC_INFO.tagline}</p>
@@ -144,7 +145,7 @@ export function Footer() {
 
         <div className="border-t py-6 text-center text-sm">
           <p>
-            {t('copyright', { year: currentYear, name: CLINIC_INFO.name })}
+            {t('copyright', { year: currentYear, name: siteConfig.name })}
           </p>
         </div>
       </Container>
