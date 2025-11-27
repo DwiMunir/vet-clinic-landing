@@ -1,0 +1,183 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "testimonials": "Testimonials",
+    "scheduleVisit": "Schedule a Visit"
+  },
+  "hero": {
+    "tagline": "Caring for cats with love and EXPURRTise!",
+    "description": "Your Ultimate Destination for Expert Care, Training, and Wellness to Keep Your Furry Friends Happy and Healthy!",
+    "scheduleVisit": "Schedule a Visit",
+    "ourServices": "Our Services",
+    "healthCard": {
+      "title": "Health",
+      "subtitle": "Caring for pets"
+    },
+    "catHealthCard": {
+      "title": "Cat Health",
+      "subtitle": "Expert care"
+    },
+    "happyPetsCard": {
+      "title": "Happy Pets"
+    }
+  },
+  "services": {
+    "title": "Service We Provide",
+    "description": "Your Ultimate Destination for Expert Care, Training, and Wellness to Keep Your Furry Friends Happy and Healthy!",
+    "generalCheckup": {
+      "title": "General Checkup",
+      "description": "Comprehensive health examination for your pet"
+    },
+    "vaccination": {
+      "title": "Vaccination",
+      "description": "Complete vaccination services to keep your pet healthy"
+    },
+    "surgery": {
+      "title": "Surgery",
+      "description": "Advanced surgical procedures with modern equipment"
+    },
+    "grooming": {
+      "title": "Grooming",
+      "description": "Professional pet grooming and spa services"
+    }
+  },
+  "about": {
+    "title": "Why Choose Us",
+    "description": "We understand that pets are more than just animals—they're family. That's why we're here to provide the highest level of care for your beloved companions.",
+    "feature1": "Prioritizing health, happiness, and ultimate comfort.",
+    "feature2": "Comprehensive care to meet their specific needs, from cats to pets.",
+    "experiencedProfessionals": {
+      "title": "Experienced Professionals",
+      "subtitle": "Expert vet care"
+    },
+    "comprehensiveCare": {
+      "title": "Comprehensive Care",
+      "subtitle": "Full health services"
+    },
+    "support247": {
+      "title": "24/7 Support",
+      "subtitle": "Always available"
+    }
+  },
+  "expertTips": {
+    "title": "Tips From Our Expert",
+    "tip1": "Ensure your cat gets health checks at our vet clinic.",
+    "tip2": "Maintain a balanced diet with our nutritional health insights.",
+    "tip3": "Regular play and exercise to prevent obesity in felines.",
+    "doctorName": "Dr. Aletha Conte",
+    "doctorRole": "Senior Veterinarian",
+    "vetServices": "Vet Services",
+    "trainingServices": "Training Services"
+  },
+  "team": {
+    "title": "Get to Know Our Cat Care Experts",
+    "description": "Compassionate professionals dedicated to your feline's health and happiness",
+    "members": {
+      "erin": {
+        "name": "Dr. Erin Curt",
+        "role": "Certified Vet"
+      },
+      "sarah": {
+        "name": "Sarah Thomp",
+        "role": "Certified Groomer"
+      },
+      "mike": {
+        "name": "Mike Johnson",
+        "role": "Vet Surgeon"
+      },
+      "jessica": {
+        "name": "Jessica Lee",
+        "role": "Certified Groomer"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "description": "Genuine Stories and Heartfelt Experiences from Happy Cat Parents who Trust Our Care!",
+    "items": {
+      "1": {
+        "name": "Budi Santoso",
+        "role": "Dog Owner",
+        "content": "VetCare has been amazing! The staff is so caring and professional. Max loves coming here!"
+      },
+      "2": {
+        "name": "Siti Nurhaliza",
+        "role": "Cat Owner",
+        "content": "Best vet clinic in town. They saved Luna's life during an emergency. Forever grateful!"
+      },
+      "3": {
+        "name": "Ahmad Wijaya",
+        "role": "Rabbit Owner",
+        "content": "Professional service, clean facility, and reasonable prices. Highly recommended!"
+      }
+    }
+  },
+  "cta": {
+    "title": "Hi, How can we help you?",
+    "description": "We're always here to answer your questions and assist with anything you need. Just reach out to us!",
+    "emailPlaceholder": "Enter your email",
+    "submit": "Send",
+    "chatSupport": "Chat Support",
+    "available247": "24/7 Available"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Book an appointment or ask us anything",
+    "info": {
+      "phone": {
+        "label": "Phone",
+        "value": "+1 (212) 555-0123"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@pawfeccare.com"
+      },
+      "address": {
+        "label": "Address",
+        "value": "123 Main Street, New York, NY 10001"
+      },
+      "hours": {
+        "label": "Opening Hours",
+        "weekdays": "Weekdays",
+        "weekends": "Weekends"
+      }
+    },
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+62 812-3456-7890",
+      "petName": "Pet Name",
+      "petNamePlaceholder": "Max",
+      "serviceInterest": "Service Interest",
+      "selectService": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your pet and what you need...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! We'll get back to you soon.",
+      "errorMessage": "Something went wrong. Please try again."
+    }
+  },
+  "footer": {
+    "services": {
+      "title": "Services"
+    },
+    "shop": {
+      "title": "Our Shop",
+      "mainShop": "Main Shop",
+      "ourTeam": "Our Team",
+      "aboutUs": "About Us",
+      "cart": "Shopping Cart"
+    },
+    "contactInfo": {
+      "title": "Contact Info"
+    },
+    "copyright": "© Copyright {year} {name}. All Rights Reserved."
+  }
+}

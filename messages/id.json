@@ -1,0 +1,183 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "services": "Layanan",
+    "contact": "Kontak",
+    "testimonials": "Testimoni",
+    "scheduleVisit": "Jadwalkan Kunjungan"
+  },
+  "hero": {
+    "tagline": "Merawat kucing dengan cinta dan keahlian!",
+    "description": "Destinasi Utama Anda untuk Perawatan Ahli, Pelatihan, dan Kesehatan untuk Menjaga Teman Berbulu Anda Bahagia dan Sehat!",
+    "scheduleVisit": "Jadwalkan Kunjungan",
+    "ourServices": "Layanan Kami",
+    "healthCard": {
+      "title": "Kesehatan",
+      "subtitle": "Merawat hewan peliharaan"
+    },
+    "catHealthCard": {
+      "title": "Kesehatan Kucing",
+      "subtitle": "Perawatan ahli"
+    },
+    "happyPetsCard": {
+      "title": "Hewan Bahagia"
+    }
+  },
+  "services": {
+    "title": "Layanan yang Kami Sediakan",
+    "description": "Destinasi Utama Anda untuk Perawatan Ahli, Pelatihan, dan Kesehatan untuk Menjaga Teman Berbulu Anda Bahagia dan Sehat!",
+    "generalCheckup": {
+      "title": "Pemeriksaan Umum",
+      "description": "Pemeriksaan kesehatan komprehensif untuk hewan peliharaan Anda"
+    },
+    "vaccination": {
+      "title": "Vaksinasi",
+      "description": "Layanan vaksinasi lengkap untuk menjaga kesehatan hewan peliharaan Anda"
+    },
+    "surgery": {
+      "title": "Operasi",
+      "description": "Prosedur bedah canggih dengan peralatan modern"
+    },
+    "grooming": {
+      "title": "Grooming",
+      "description": "Layanan grooming dan spa hewan peliharaan profesional"
+    }
+  },
+  "about": {
+    "title": "Mengapa Memilih Kami",
+    "description": "Kami memahami bahwa hewan peliharaan lebih dari sekadar hewan—mereka adalah keluarga. Itulah mengapa kami di sini untuk memberikan tingkat perawatan tertinggi untuk teman kesayangan Anda.",
+    "feature1": "Memprioritaskan kesehatan, kebahagiaan, dan kenyamanan maksimal.",
+    "feature2": "Perawatan komprehensif untuk memenuhi kebutuhan spesifik mereka, dari kucing hingga hewan peliharaan.",
+    "experiencedProfessionals": {
+      "title": "Profesional Berpengalaman",
+      "subtitle": "Perawatan dokter hewan ahli"
+    },
+    "comprehensiveCare": {
+      "title": "Perawatan Komprehensif",
+      "subtitle": "Layanan kesehatan lengkap"
+    },
+    "support247": {
+      "title": "Dukungan 24/7",
+      "subtitle": "Selalu tersedia"
+    }
+  },
+  "expertTips": {
+    "title": "Tips Dari Ahli Kami",
+    "tip1": "Pastikan kucing Anda mendapatkan pemeriksaan kesehatan di klinik hewan kami.",
+    "tip2": "Jaga pola makan seimbang dengan wawasan kesehatan nutrisi kami.",
+    "tip3": "Bermain dan berolahraga secara teratur untuk mencegah obesitas pada kucing.",
+    "doctorName": "Dr. Aletha Conte",
+    "doctorRole": "Dokter Hewan Senior",
+    "vetServices": "Layanan Hewan",
+    "trainingServices": "Layanan Pelatihan"
+  },
+  "team": {
+    "title": "Kenali Para Ahli Perawatan Kucing Kami",
+    "description": "Profesional yang penuh kasih sayang yang berdedikasi untuk kesehatan dan kebahagiaan kucing Anda",
+    "members": {
+      "erin": {
+        "name": "Dr. Erin Curt",
+        "role": "Dokter Hewan Tersertifikasi"
+      },
+      "sarah": {
+        "name": "Sarah Thomp",
+        "role": "Groomer Tersertifikasi"
+      },
+      "mike": {
+        "name": "Mike Johnson",
+        "role": "Ahli Bedah Hewan"
+      },
+      "jessica": {
+        "name": "Jessica Lee",
+        "role": "Groomer Tersertifikasi"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Apa Kata Mereka",
+    "description": "Cerita Asli dan Pengalaman Tulus dari Pemilik Kucing yang Bahagia yang Mempercayai Perawatan Kami!",
+    "items": {
+      "1": {
+        "name": "Budi Santoso",
+        "role": "Pemilik Anjing",
+        "content": "VetCare sangat luar biasa! Stafnya sangat peduli dan profesional. Max suka datang ke sini!"
+      },
+      "2": {
+        "name": "Siti Nurhaliza",
+        "role": "Pemilik Kucing",
+        "content": "Klinik hewan terbaik di kota. Mereka menyelamatkan nyawa Luna saat darurat. Sangat berterima kasih!"
+      },
+      "3": {
+        "name": "Ahmad Wijaya",
+        "role": "Pemilik Kelinci",
+        "content": "Layanan profesional, fasilitas bersih, dan harga yang wajar. Sangat direkomendasikan!"
+      }
+    }
+  },
+  "cta": {
+    "title": "Hai, Bagaimana kami bisa membantu Anda?",
+    "description": "Kami selalu di sini untuk menjawab pertanyaan Anda dan membantu apa pun yang Anda butuhkan. Hubungi kami!",
+    "emailPlaceholder": "Masukkan email Anda",
+    "submit": "Kirim",
+    "chatSupport": "Dukungan Chat",
+    "available247": "Tersedia 24/7"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Buat janji atau tanyakan apa saja",
+    "info": {
+      "phone": {
+        "label": "Telepon",
+        "value": "+1 (212) 555-0123"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hello@pawfeccare.com"
+      },
+      "address": {
+        "label": "Alamat",
+        "value": "123 Main Street, New York, NY 10001"
+      },
+      "hours": {
+        "label": "Jam Buka",
+        "weekdays": "Hari Kerja",
+        "weekends": "Akhir Pekan"
+      }
+    },
+    "form": {
+      "name": "Nama Anda",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Telepon",
+      "phonePlaceholder": "+62 812-3456-7890",
+      "petName": "Nama Hewan",
+      "petNamePlaceholder": "Max",
+      "serviceInterest": "Minat Layanan",
+      "selectService": "Pilih layanan",
+      "message": "Pesan",
+      "messagePlaceholder": "Ceritakan tentang hewan peliharaan Anda dan apa yang Anda butuhkan...",
+      "submit": "Kirim Pesan",
+      "sending": "Mengirim...",
+      "successMessage": "Terima kasih! Kami akan segera menghubungi Anda.",
+      "errorMessage": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "footer": {
+    "services": {
+      "title": "Layanan"
+    },
+    "shop": {
+      "title": "Toko Kami",
+      "mainShop": "Toko Utama",
+      "ourTeam": "Tim Kami",
+      "aboutUs": "Tentang Kami",
+      "cart": "Keranjang Belanja"
+    },
+    "contactInfo": {
+      "title": "Info Kontak"
+    },
+    "copyright": "© Hak Cipta {year} {name}. Semua Hak Dilindungi."
+  }
+}
